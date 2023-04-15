@@ -1,0 +1,35 @@
+@import url("./general-css.css");
+
+
+/* xs */
+/* ... */
+
+
+
+
+
+/* sm */
+@media (min-width: 576px) {
+
+
+    
+}
+
+
+
+/* md */
+@media (min-width: 768px) {
+
+
+
+    
+}
+
+
+
+
+/* lg */
+@media (min-width: 1240px) {
+
+
+}

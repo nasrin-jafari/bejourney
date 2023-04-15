@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../../assets/fonts/Poppins/Poppins-Regular.woff) format("woff"),
+    url(../../assets/fonts/Poppins/Poppins-Regular.eot) format("eot");
+}
+@font-face {
+  font-family: "Yeseva-One";
+  src: url(../../assets/fonts/YesevaOne-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(../../assets/fonts/Helvetica.woff) format("woff");
+}
+
+:root {
+  --font-popins: "Poppins";
+  --font-YesevaOne: "Yeseva-One";
+  --font-Helvetica: "Helvetica";
+  --font-Arial: "Arial";
+  --font-sans-serif: "sans-serif";
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+  --font-weight-bolder: 700;
+  --font-h1-lg: 3.75rem;
+  --font-h2-lg: 2.8rem;
+  --font-h3-lg: 1.5rem;
+  --font-body-lg: 0.875rem;
+  --font-btn-lg: 0.875rem;
+  --font-h1-md: 3.2rem;
+  --font-h2-md: 2.3rem;
+  --font-h3-md: 1.3rem;
+  --font-h1-sm: 2.8rem;
+  --font-h2-sm: 2.125rem;
+  --font-h3-sm: 1.2rem;
+  --font-h1-xs: 2.25rem;
+  --font-h2-xs: 1.7rem;
+  --font-h3-xs: 0.9rem;
+  --font-body-defult: 0.8rem;
+  --font-btn-defult: 0.8rem;
+  --color-text-bg-green: #00a2a0;
+  --color-text-dark: #1a404a;
+  --color-text-gray: #766f65;
+  --color-text-white: #ffffff;
+  --color-btn: #f5e9da;
+  --color-badge: #d09a77;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
