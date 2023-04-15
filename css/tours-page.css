@@ -2,29 +2,440 @@
 
 /* xs */
 /* ... */
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
 
+.header {
+    width: 100%;
+    height: 370px;
+    display: grid;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__menu {
+    background-color: #dcdcdc;
+    width: 100%;
+    height: 70px;
+    display: block;
+}
+
+.header__img {
+    background-image: url("../assets/images/img/image-tours-page/journey2-subheader.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 520px;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+}
+
+.img__text__title {
+    padding: 40px 0;
+    font-size: var(--font-h1-xs);
+    color: var(--color-text-dark);
+}
+
+.img__text__subtext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: 2px solid #fcdbb9;
+}
+
+.text__subtext__index {
+    padding: 0 35px;
+    width: 85%;
+    font-family: var(--font-Helvetica);
+    font-size: var(--font-h3-xs);
+    color: var(--color-text-dark);
+}
+
+.places-part {
+
+    padding: 310px 10px 0 10px;
+
+}
+
+
+.section {
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section__img-box {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    cursor: pointer;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.img-box__img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+}
+
+.img-box__img:hover {
+    transform: scale(1.1);
+}
+
+.section__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 35px 0;
+    font-family: var(--font-Helvetica);
+    color: var(--color-text-dark);
+    font-size: var(--font-h3-xs);
+}
+
+.details__icon {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    max-height: 180px;
+}
+
+.details__title {
+    padding-top: 20px;
+    font-family: var(--font-YesevaOne);
+    font-size: var(--font-h2-xs);
+}
+
+.details__main-top {
+    padding-top: 30px;
+    width: 90%;
+    max-width: 380px;
+}
+
+.details__main-bottom {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    width: 90%;
+    max-width: 380px;
+}
+
+.btn {
+    width: 135px;
+    height: 42px;
+    border-radius: 50px;
+    color: var(--color-text-white);
+    font-size: var(--font-btn-defult);
+    background-color: var(--color-text-bg-green);
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:link {
+    color: var(--color-text-white);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #019896;
+}
+
+
+.blue-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-Helvetica);
+}
+
+.blue-card__img {
+    background-image: url("../assets/images/img/image-tours-page/journey2-wrapbg2.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blue-card__details {
+    background-color: var(--color-text-dark);
+    width: 100%;
+    height: 600px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: var(--font-h3-xs);
+}
+
+.blue-card__title {
+    font-family: var(--font-YesevaOne);
+    color: var(--color-text-bg-green);
+    font-size: var(--font-h1-xs);
+}
+
+.blue-card__top {
+    padding-top: 20px;
+    color: var(--color-text-white);
+    line-height: 26px;
+
+}
+
+.blue-card__bottom {
+    padding: 12px 0 38px 0;
+    color: var(--color-text-white);
+    line-height: 26px;
+}
+
+.process {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.process-title {
+    font-family: var(--font-YesevaOne);
+    font-size: var(--font-h2-sm);
+    color: var(--color-text-dark);
+    padding-bottom: 50px;
+}
+
+.process-part__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__step {
+    background-color: #f5e9d9;
+    color: #cc9b7b;
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-size: var(--font-h3-xs);
+    font-weight: var(--font-weight-bolder);
+}
+
+.card__img {
+    padding: 30px 0;
+}
+
+.card__title {
+    color: var(--color-text-bg-green);
+    font-weight: var(--font-weight-bold);
+    width: 70%;
+    max-width: 500px;
+}
+
+.card__text {
+    font-family: var(--font-Helvetica);
+    color: var(--color-text-dark);
+    font-size: var(--font-h3-xs);
+    padding: 20px 0 45px 0;
+    width: 85%;
+    max-width: 420px;
+    line-height: 23px;
+
+}
 
 
 
 /* sm */
 @media (min-width: 576px) {
+    .header__img {
+        padding: 0 65px;
+    }
 
+    .img__text__title {
+        font-size: var(--font-h1-sm);
+    }
 
-    
+    .img__text__subtext {
+        font-size: var(--font-h3-sm);
+    }
+
+    .text__subtext__index {
+        width: 75%;
+    }
+
+    .details__title {
+        font-size: var(--font-h2-sm);
+        padding-top: 30px;
+    }
+
+    .details__main-top {
+        padding-top: 30px;
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .details__main-bottom {
+        padding-top: 25px;
+        padding-bottom: 35px;
+        width: 85%;
+        max-width: 390px;
+    }
+
+    .section__details {
+        padding: 40px 0;
+    }
+
+    .blue-card__title {
+        font-size: var(--font-h1-sm);
+    }
+
+    .blue-card__top {
+        padding-top: 30px;
+        line-height: 28px;
+    }
+
+    .blue-card__bottom {
+        padding: 20px 0 38px 0;
+        line-height: 28px;
+    }
+
+    .process-title {
+        font-size: var(--font-h1-sm);
+        padding-bottom: 60px;
+
+    }
+
+    .process {
+        padding-top: 105px;
+    }
+
+    .card__title {
+        font-size: var(--font-h3-sm);
+    }
 }
-
-
 
 /* md */
 @media (min-width: 768px) {
+    .header__img {
+        padding: 0 110px;
+    }
 
+    .img__text__title {
+        font-size: var(--font-h1-md);
+        padding: 70px 0;
+    }
 
+    .text__subtext__index {
+        width: 50%;
+    }
 
-    
+    .section {
+        padding: 0 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .section__img-box {
+        width: 50%;
+        max-width: 420px;
+        height: 100%;
+        max-height: 420px;
+        cursor: pointer;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .section__details {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 35px 0;
+        font-family: var(--font-Helvetica);
+        color: var(--color-text-dark);
+        font-size: var(--font-h3-xs);
+    }
+
+    .details__title {
+        padding-top: 20px;
+        font-family: var(--font-YesevaOne);
+        font-size: var(--font-h1-sm);
+    }
+
+    .details__main-top {
+        padding-top: 30px;
+        width: 70%;
+        max-width: 410px;
+    }
+
+    .details__main-bottom {
+        padding-top: 25px;
+        padding-bottom: 35px;
+        width: 85%;
+        max-width: 410px;
+    }
+
+    .section--reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .blue-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .blue-card__img {
+        height: 710px;
+    }
+
+    .blue-card__details {
+        height: 710px;
+        padding: 40px;
+    }
+
+    .blue-card__title {
+        font-size: var(--font-h1-md);
+    }
+
+    .process-part {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .process-title {
+        font-size: var(--font-h1-md);
+        padding-bottom: 60px;
+    }
+
+    .process {
+        padding-top: 105px;
+    }
+
+    .card__title {
+        font-size: var(--font-h3-md);
+    }
 }
-
-
-
 
 /* lg */
 @media (min-width: 1240px) {
