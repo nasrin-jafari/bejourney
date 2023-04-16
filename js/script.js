@@ -1,6 +1,7 @@
 const header = document.querySelector(".header");
 const headerPlaceholder = document.querySelector(".header-placeholder");
 const headerHeight = header.offsetHeight;
+const navLinksColor = document.querySelector(".nav-link");
 
 function openNav() {
   document.getElementById("mySidebar").style.right = "0";
@@ -8,6 +9,7 @@ function openNav() {
   headerPlaceholder.style.display = "block";
   headerPlaceholder.style.height = `${headerHeight}px`;
   document.querySelector(".overlay").classList.add("active");
+  navLinksColor.classList.toggle("sidebarColor");
 }
 
 function closeNav() {
@@ -18,6 +20,7 @@ function closeNav() {
     headerPlaceholder.style.height = "0";
   }
   document.querySelector(".overlay").classList.remove("active");
+  document.querySelector(".nav-link").classList.remove("sidebarColor");
 }
 
 // Sticky Menu
@@ -34,3 +37,16 @@ window.addEventListener("scroll", function () {
     }
   }
 });
+
+//change color of links onclick
+
+var currentPageUrl = window.location.href;
+var navLinks = document.querySelectorAll(".nav-link");
+
+for (var i = 0; i < navLinks.length; i++) {
+  var linkUrl = navLinks[i].getAttribute("href");
+
+  if (linkUrl == currentPageUrl) {
+    navLinks[i].classList.add("active");
+  }
+}

@@ -97,6 +97,7 @@
     justify-content: center;
     align-items: flex-start;
   }
+  
   .sidebar__button {
     display: flex;
     justify-content: center;
@@ -114,9 +115,16 @@
   }
   .nav-link {
     font-family: var(--font-Helvetica);
-    color: var(--color-text-white);
+    color: var(--color-text-bg-green);
     font-size: var(--font-body-default);
   }
+  .nav-link.sidebarColor {
+    color: var(--color-text-gray);
+  }
+  .nav-link.active {
+    color: var(--color-text-white);
+  }
+
 
   .overlay {
     position: fixed;
@@ -233,7 +241,10 @@
   .header__logo {
     width: 280px;
     height: 100%;
-}
+  }
+  .nav-link.activ {
+    color: black;
+  }
 
 
 }
