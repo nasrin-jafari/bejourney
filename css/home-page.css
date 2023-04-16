@@ -1,4 +1,4 @@
-@import url("./general-css.css");
+@import url("general-css.css");
 
 .container {
     width: 100%;
@@ -114,7 +114,7 @@
     font-weight: var(--font-weight-bold);
   }
   .nav-link {
-    font-family: var(--font-Helvetica);
+    font-family: var(--font-popins);
     color: var(--color-text-bg-green);
     font-size: var(--font-body-default);
   }
@@ -143,11 +143,6 @@
     opacity: 0.5;
     visibility: visible;
     transition: opacity 0.3s ease-in-out, visibility 0s linear 0s;
-  }
-
-  .test {
-    width: 100%;
-    height: 200px;
   }
 
   .sticky {
@@ -230,20 +225,20 @@
   }
   .desktop__links {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     width: 60%;
   }
-  .desktop__nav-link {
-    font-family: var(--font-popins);
-    color: var(--color-text-bg-green);
+  .nav-link {
+    font-weight: var(--font-weight-bold);
     font-size: var(--font-body-default);
+    letter-spacing: 1px;
+  }
+  .nav-link.activ {
+    color: black;
   }
   .header__logo {
     width: 280px;
     height: 100%;
-  }
-  .nav-link.activ {
-    color: black;
   }
 
 
