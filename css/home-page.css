@@ -97,11 +97,11 @@
     justify-content: center;
     align-items: flex-start;
   }
-  
   .sidebar__button {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   .buy-now {
     width: 100%;
@@ -117,6 +117,8 @@
     font-family: var(--font-popins);
     color: var(--color-text-bg-green);
     font-size: var(--font-body-default);
+    transition: 0.5s ease;
+    cursor: pointer;
   }
   .nav-link.sidebarColor {
     color: var(--color-text-gray);
@@ -124,8 +126,9 @@
   .nav-link.active {
     color: var(--color-text-white);
   }
-
-
+  .nav-link:hover {
+    color: var(--color-text-dark);
+  }
   .overlay {
     position: fixed;
     z-index: 98;
@@ -209,6 +212,7 @@
         color: var(--color-text-white);
         font-size: var(--font-btn-default);
         font-weight: var(--font-weight-normal);
+        cursor: pointer;
     }
     .desktop__links {
       display: none;
