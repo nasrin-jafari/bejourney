@@ -260,13 +260,15 @@
         padding: 30px 28px;
     }
     .header.sticky {
-      height: 50px;
+      padding: 5px 28px;
+      height: 60px;
       box-shadow: 1px 1px 5px rgb(223, 219, 219);
       opacity: 0.9;
     }
     .header__logo__img.sticky {
-      width: 100px;
-      height: 50px;
+      width: 120px;
+      height: 35px;
+      margin-top: 12px;
     }
     .header__logo {
         width: 60%;
@@ -325,12 +327,13 @@
     letter-spacing: 1px;
   }
   .nav-link.activ {
-    color: black;
+    color: var(--color-text-dark);
   }
   .header__logo {
     width: 280px;
     height: 100%;
   }
+  
   
 
 
