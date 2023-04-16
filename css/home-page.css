@@ -194,7 +194,7 @@
     color: var(--color-text-dark);
     font-family: var(--font-popins);
     font-weight: var(--font-weight-normal);
-    font-size: 0.8rem;
+    font-size: var(--font-body-defult);
   }
   .footer__social {
     display: flex;
@@ -209,6 +209,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .footer__icons:hover {
+    background-color: #134645;
   }
   .footer__social-containers {
     padding: 0 10px 0px 10px;
