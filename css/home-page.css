@@ -42,11 +42,11 @@
     }
   }
 
-  .header.active.sticky {
+  /* .header.active.sticky {
     position: fixed;
     top: 0;
     animation: 0.3s ease-in-out;
-  }
+  } */
 
   .header__logo {
     width: 70%;
@@ -249,6 +249,7 @@
     .desktop__links {
       display: none;
     }
+
 }
 
 
@@ -257,6 +258,15 @@
 @media (min-width: 768px) {
     .header {
         padding: 30px 28px;
+    }
+    .header.sticky {
+      height: 50px;
+      box-shadow: 1px 1px 5px rgb(223, 219, 219);
+      opacity: 0.9;
+    }
+    .header__logo__img.sticky {
+      width: 100px;
+      height: 50px;
     }
     .header__logo {
         width: 60%;
@@ -321,6 +331,7 @@
     width: 280px;
     height: 100%;
   }
+  
 
 
 }
