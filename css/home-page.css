@@ -174,7 +174,15 @@
   }
   .test {
     width: 100%;
-    height: 200px;
+    height: 850px;
+    background-image: url(../assets/images/img/image-header-footer/journey2-slider-bg.png);
+    padding-top: 220px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; 
+    /* background-attachment: scroll!important;
+    height: auto!important;    */
   }
 
   /* footer style */
@@ -272,12 +280,14 @@
 @media (min-width: 768px) {
     .header {
         padding: 30px 28px;
+        background-color: transparent;
     }
     .header.sticky {
       padding: 5px 28px;
       height: 60px;
       box-shadow: 1px 1px 5px rgb(223, 219, 219);
       opacity: 0.9;
+      background-color: var(--color-text-white);
     }
     .header__logo__img.sticky {
       width: 120px;
@@ -330,17 +340,21 @@
 
 /* lg */
 @media (min-width: 1240px) {
+  .header {
+    padding: 30px 32px;
+    background-color: transparent;
+}
   .header__hamburger {
     display: none;
   }
   .desktop__links {
     display: flex;
     gap: 40px;
-    width: 60%;
+    width: 55%;
   }
   .nav-link {
     font-weight: var(--font-weight-bold);
-    font-size: var(--font-body-default);
+    font-size: 0.87rem;
     letter-spacing: 1px;
   }
   .nav-link.activ {
