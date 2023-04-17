@@ -62,6 +62,7 @@
     justify-content: center;
     align-items: center;
     gap: 6px;
+    cursor: pointer;
   }
   .header__bar {
     width: 100%;
@@ -89,12 +90,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
   }
   .sidebar__links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    line-height: 2.5em;
   }
   .sidebar__button {
     display: flex;
@@ -111,6 +114,10 @@
     color: var(--color-text-white);
     font-size: var(--font-btn-default);
     font-weight: var(--font-weight-bold);
+    cursor: pointer;
+  }
+  .buy-now:hover {
+    background-color: #089D9B;
   }
   .nav-link {
     font-family: var(--font-popins);
@@ -120,7 +127,12 @@
     cursor: pointer;
   }
   .nav-link.sidebarColor {
-    color: var(--color-text-gray);
+    color: #9DA6A6;
+    transition: 0.1s ease;
+
+  }
+  .nav-link.sidebarColor:hover {
+    color: var(--color-text-white);
   }
   .nav-link.active {
     color: var(--color-text-white);
@@ -207,9 +219,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   .footer__icons:hover {
-    background-color: #134645;
+    background-color: #047876;
   }
   .footer__social-containers {
     padding: 0 10px 0px 10px;
@@ -303,6 +316,9 @@
         font-size: var(--font-btn-default);
         font-weight: var(--font-weight-normal);
         cursor: pointer;
+    }
+    .desktop__buy-now:hover {
+      background-color: #089D9B;
     }
     .desktop__links {
       display: none;
