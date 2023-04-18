@@ -194,6 +194,90 @@ body {
 .description--process {
   line-height: 24px;
 }
+/* section Tours-destinations */
+.Tours-destinations__header {
+  padding-top: 40px;
+  background: url("../assets/images/img/image-home-page/bg-Tours-destinations.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+.row--Tours-destinations {
+  height: auto;
+  background: url("../assets/images/img/image-home-page/img-Tours-destinations.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 180px 32px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tours-destinations__btn-play,
+.Tours-destinations__btn-play--hover-mode {
+  width: 180px;
+  height: 180px;
+  cursor: pointer;
+}
+.Tours-destinations__btn-play--hover-mode {
+  display: none;
+}
+.Tours-destinations__btn-play:hover
+  + .Tours-destinations__btn-play--hover-mode {
+  display: flex;
+}
+.Tours-destinations__btn-play:hover {
+  display: none;
+}
+.Tours-destinations__content {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 16%,
+    rgba(0, 162, 160, 1) 16%,
+    rgba(0, 162, 160, 1) 100%
+  );
+  padding-top: 120px;
+  text-align: center;
+}
+.heading-2--Tours-destinations {
+  color: var(--color-text-white);
+  padding-bottom: 32px;
+}
+.Tours-destinations__country-map {
+  padding: 16px 0;
+}
+.heading-3--Tours-destinations {
+  padding-bottom: 16px;
+  color: var(--color-text-white);
+}
+.description--Tours-destinations {
+  padding-bottom: 16px;
+  line-height: 24px;
+  color: var(--color-text-white);
+  text-align: center;
+}
+.Tours-destinations__country-image-container {
+  width: 100%;
+  overflow: hidden;
+}
+.Tours-destinations__country-image {
+  transition: 0.4s ease;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.Tours-destinations__country-image:hover {
+  transform: scale(1.1);
+  
+}
+.btn-container--Tours-destinations {
+  padding-bottom: 80px;
+}
+
+
 /* sm */
 @media (min-width: 576px) {
   /* css general home page */
@@ -287,6 +371,19 @@ body {
   .btn-container--process {
     padding-top: 32px;
   }
+  /* section Tours-destinations */
+  .Tours-destinations__content {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 36%,
+      rgba(0, 162, 160, 1) 36%,
+      rgba(0, 162, 160, 1) 100%
+    );
+  }
+  .Tours-destinations__country-image-container {
+    height: 170px;
+  }
 }
 /* lg */
 @media (min-width: 1240px) {
@@ -318,5 +415,9 @@ body {
   }
   .banner__buttons {
     max-width: 320px;
+  }
+  /* section Tours-destinations */
+  .Tours-destinations__country-image-container {
+    height: 220px;
   }
 }
