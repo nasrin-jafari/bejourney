@@ -1,14 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bejourney</title>
-    <link rel="icon" type="image/x-icon" href="../assets/images/icons/fav-icon.png">
-    <link rel="stylesheet" href="../css/home-page.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>header-footer</title>
+    <link rel="stylesheet" href="../css/home-page.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="container" id="main">
+      <div class="header">
+        <div class="header__logo">
+          <img
+            class="header__logo__img"
+            src="../assets/images/img/image-header-footer/retina-journey2.png"
+          />
+        </div>
+        <div class="desktop__links">
+          <a class="nav-link activ" href="#">HOME</a>
+          <a class="nav-link" href="#">ABOUT US</a>
+          <a class="nav-link" href="#">TOURS</a>
+          <a class="nav-link" href="#">OUR TEAM</a>
+          <a class="nav-link" href="#">CONTACT</a>
+        </div>
+        <div class="header__hamburger" id="bar" onclick="openNav()">
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+        </div>
+        <div class="header__desktop">
+          <div class="desktop__menu-button">
+            <button class="desktop__buy-now">Buy now ></button>
+          </div>
+        </div>
+      </div>
+      <div class="header-placeholder"></div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+      <div class="sidebar__cross">
+        <a
+          aria-colspan="close-button"
+          href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeNav()"
+          ><i class="fa fa-xmark fa-lg" style="color: #949fa6"></i
+        ></a>
+      </div>
+      <div class="sidebar__button">
+        <button class="buy-now">Buy now ></button>
+      </div>
+      <div class="sidebar__links">
+        <a class="nav-link active sidebarColor" href="#">HOME</a>
+        <a class="nav-link sidebarColor" href="page-about us.html">ABOUT US</a>
+        <a class="nav-link sidebarColor" href="page-tours.html">TOURS</a>
+        <a class="nav-link sidebarColor" href="page-our team.html">OUR TEAM</a>
+        <a class="nav-link sidebarColor" href="page-contact.html">CONTACT</a>
+      </div>
+    </div>
+
+    <!-- Put your Page Content here -->
+    <div class="test"></div>
+
+    <!-- Page Footer -->
+    <div class="footer__container">
+      <div class="footer">
+        <div class="footer__logo">
+          <img
+            src="../assets/images/img/image-header-footer/journey2-footer-logo.png"
+          />
+        </div>
+        <div class="footer__text">
+          <p>
+            Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a
+            pellentesque dui, non felis. Maecenas malesuada elit lectus felis,
+            malesuada ultricies.
+          </p>
+        </div>
+
+        <div class="footer__social">
+          <div class="footer__social-containers">
+            <div class="footer__icons">
+              <i class="fa-brands fa-twitter" style="color: #ece1da"></i>
+            </div>
+          </div>
+          <div class="footer__social-containers">
+            <div class="footer__icons">
+              <i class="fa-brands fa-facebook-f" style="color: #ece1da"></i>
+            </div>
+          </div>
+          <div class="footer__social-containers">
+            <div class="footer__icons">
+              <i class="fa-brands fa-skype" style="color: #ece1da"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__line"></div>
+      <div class="footer__copyright">
+        <p>
+          © 2023 Betheme by
+          <a class="footer__links" href="https://muffingroup.com/"
+            >Muffin group</a
+          >
+          | All Rights Reserved | Powered by
+          <a class="footer__links" href="https://wordpress.org/">WordPress</a>
+        </p>
+      </div>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
 </html>
