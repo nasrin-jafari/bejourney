@@ -352,6 +352,11 @@
     gap: 40px;
     width: 55%;
   }
+  .desktop__links.sticky {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+  }
   .nav-link {
     font-weight: var(--font-weight-bold);
     font-size: 0.87rem;
