@@ -305,6 +305,7 @@
     font-family: var(--font-Helvetica);
     font-size: var(--font-h3-xs);
     color: var(--color-text-dark);
+    opacity: 95%;
 }
 
 .places-part {
@@ -358,7 +359,7 @@
 
 .details__icon {
     width: 100%;
-    max-width: 250px;
+    max-width: 230px;
     height: auto;
     max-height: 180px;
 }
@@ -367,12 +368,15 @@
     padding-top: 20px;
     font-family: var(--font-YesevaOne);
     font-size: var(--font-h2-xs);
+    font-weight: var(--font-weight-normal);
 }
 
 .details__main-top {
     padding-top: 30px;
     width: 90%;
     max-width: 380px;
+    line-height: 20px;
+    opacity: 98%;
 }
 
 .details__main-bottom {
@@ -380,10 +384,12 @@
     padding-bottom: 35px;
     width: 90%;
     max-width: 380px;
+    line-height: 20px;
+    opacity: 98%;
 }
 
 .btn {
-    width: 135px;
+    width: 140px;
     height: 42px;
     border-radius: 50px;
     color: var(--color-text-white);
@@ -443,14 +449,14 @@
 .blue-card__top {
     padding-top: 20px;
     color: var(--color-text-white);
-    line-height: 26px;
+    line-height: 20px;
 
 }
 
 .blue-card__bottom {
     padding: 12px 0 38px 0;
     color: var(--color-text-white);
-    line-height: 26px;
+    line-height: 20px;
 }
 
 .process {
@@ -480,7 +486,7 @@
     padding: 5px 12px;
     border-radius: 50px;
     font-size: var(--font-h3-xs);
-    font-weight: var(--font-weight-bolder);
+    font-weight: var(--font-weight-bold);
 }
 
 .card__img {
