@@ -276,7 +276,34 @@ body {
 .btn-container--Tours-destinations {
   padding-bottom: 80px;
 }
-
+/* sestion tour-guides */
+.row--tour-guides {
+  text-align: center;
+  border-top: 1px solid var(--color-line);
+  padding-top: 64px;
+  padding-bottom: 72px;
+}
+.heading-2--tour-guides {
+  padding-bottom: 24px;
+}
+.description--tour-guides {
+  line-height: 24px;
+  padding-bottom: 48px;
+}
+.card--tour-guides {
+  padding: 0 16px;
+}
+.tour-guides__image {
+  width: 100%;
+  padding: 32px 0;
+}
+.heading-3--tour-guides {
+  padding-bottom: 16px;
+}
+.card-description--tour-guides {
+  padding-bottom: 32px;
+  line-height: 24px;
+}
 
 /* sm */
 @media (min-width: 576px) {
@@ -383,6 +410,14 @@ body {
   }
   .Tours-destinations__country-image-container {
     height: 170px;
+  }
+   /* section tour-guide */
+  .card-container--tour-guides {
+    padding: 0 32px;
+    width: 90%;
+  }
+  .description--tour-guides {
+    width: 54%;
   }
 }
 /* lg */
