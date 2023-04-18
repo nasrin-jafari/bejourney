@@ -358,6 +358,44 @@ body {
 .footer__links:hover {
   text-decoration: underline;
 }
+/*float iframe */
+.video-container {
+  display: flex;
+  padding: 0 8px;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 100px;
+  right: 0;
+  left: 0;
+  display: none;
+}
+.close-icone {
+  display: none;
+}
+.icon-close-wrapper {
+  padding-bottom: 16px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: flex-end;
+}
+.video {
+  width: 100%;
+  max-width: 900px;
+  height: 290px;
+  box-shadow: 5px 5px 8px #9da2a73d, -5px -5px 8px #9da2a716;
+}
+.caver {
+  z-index: 20;
+  background-color: #0b0b0b;
+  opacity: 0.8;
+  width: 100%;
+  height: 2800px;
+  position: absolute;
+  top: 0;
+  display: none;
+}
 
 /* sm */
 @media (min-width: 576px) {
