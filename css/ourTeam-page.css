@@ -116,7 +116,7 @@
     border-radius: 20px;
     border: none;
     color: var(--color-text-white);
-    font-size: var(--font-btn-default);
+    font-size: var(--font-btn-defult);
     font-weight: var(--font-weight-bold);
     cursor: pointer;
 }
@@ -128,7 +128,7 @@
 .nav-link {
     font-family: var(--font-popins);
     color: var(--color-text-bg-green);
-    font-size: var(--font-body-default);
+    font-size: var(--font-body-defult);
     transition: 0.5s ease;
     cursor: pointer;
 }
@@ -245,9 +245,12 @@
         border: none;
         font-family: var(--font-popins);
         color: var(--color-text-white);
-        font-size: var(--font-btn-default);
         font-weight: var(--font-weight-normal);
         cursor: pointer;
+    }
+
+    .desktop__buy-now {
+        font-size: var(--font-btn-defult);
     }
 
     .desktop__buy-now:hover {
