@@ -20,6 +20,56 @@
     />
   </head>
   <body>
+    <div class="overlay"></div>
+    <div class="container" id="main">
+      <div class="header">
+        <div class="header__logo">
+          <img
+            class="header__logo__img"
+            src="../assets/images/img/image-home-page/retina-journey2.png"
+          />
+        </div>
+        <div class="desktop__links">
+          <a class="nav-link activ" href="#">HOME</a>
+          <a class="nav-link" href="./page-about us.html">ABOUT US</a>
+          <a class="nav-link" href="./page-tours.html">TOURS</a>
+          <a class="nav-link" href="./page-our team.html">OUR TEAM</a>
+          <a class="nav-link" href="./page-contact.html">CONTACT</a>
+        </div>
+        <div class="header__hamburger" id="bar" onclick="openNav()">
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+        </div>
+        <div class="header__desktop">
+          <div class="desktop__menu-button">
+            <button class="desktop__buy-now">Buy now ></button>
+          </div>
+        </div>
+      </div>
+      <div class="header-placeholder"></div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+      <div class="sidebar__cross">
+        <a
+          aria-colspan="close-button"
+          href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeNav()"
+          ><i class="fa fa-xmark fa-lg" style="color: #949fa6"></i
+        ></a>
+      </div>
+      <div class="sidebar__button">
+        <button class="buy-now">Buy now ></button>
+      </div>
+      <div class="sidebar__links">
+        <a class="nav-link active sidebarColor" href="#">HOME</a>
+        <a class="nav-link sidebarColor" href="page-about us.html">ABOUT US</a>
+        <a class="nav-link sidebarColor" href="page-tours.html">TOURS</a>
+        <a class="nav-link sidebarColor" href="page-our team.html">OUR TEAM</a>
+        <a class="nav-link sidebarColor" href="page-contact.html">CONTACT</a>
+      </div>
+    </div>
     <div class="main-container">
       <div class="sections banner">
         <div class="card--banner">
