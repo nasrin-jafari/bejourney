@@ -1,19 +1,29 @@
 @font-face {
   font-family: "Poppins";
-  src: url(../../assets/fonts/Poppins/Poppins-Regular.woff) format("woff"),
-    url(../../assets/fonts/Poppins/Poppins-Regular.eot) format("eot");
+  src: url(../assets/fonts/Poppins/Poppins-Regular.woff) format("woff"),
+    url(../assets/fonts/Poppins/Poppins-Regular.eot) format("eot");
 }
 @font-face {
   font-family: "Yeseva-One";
-  src: url(../../assets/fonts/YesevaOne-Regular.woff) format("woff");
+  src: url(../assets/fonts/YesevaOne-Regular.woff) format("woff");
 }
 @font-face {
   font-family: "Helvetica";
-  src: url(../../assets/fonts/Helvetica.woff) format("woff");
+  src: url(../assets/fonts/YesevaOne-Regular.woff) format("woff");
 }
 
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../assets/fonts/Poppins/Poppins-Light.woff) format("woff"),
+  url(../assets/fonts/Poppins/Poppins-Light.eot) format("eot");
+}
+@font-face{
+  font-family: "popins-extralight";
+    src: url(../assets/fonts/Poppins/Poppins-ExtraLight.woff) format("woff"),
+  url(../assets/fonts/Poppins/Poppins-ExtraLight.eot) format("eot");
+}
 :root {
-  --font-popins: "Poppins";
+  --font-popins: "Poppins-Light";
   --font-YesevaOne: "Yeseva-One";
   --font-Helvetica: "Helvetica";
   --font-Arial: "Arial";
@@ -43,6 +53,11 @@
   --color-text-white: #ffffff;
   --color-btn: #f5e9da;
   --color-badge: #d09a77;
+  --color-line: #ff7515;
+}
+*::selection {
+  color: white;
+  background-color: #00a2a0;
 }
 * {
   margin: 0;
