@@ -2,13 +2,13 @@
 
 /* xs */
 /* ... */
-.container {
+.main-container {
     width: 100%;
     height: 100vh;
     background-color: white;
 }
 
-.header {
+.banner {
     width: 100%;
     height: 370px;
     display: grid;
@@ -16,14 +16,7 @@
     align-items: flex-start;
 }
 
-.header__menu {
-    background-color: #dcdcdc;
-    width: 100%;
-    height: 70px;
-    display: block;
-}
-
-.header__img {
+.banner__img {
     background-image: url("../assets/images/img/image-tours-page/journey2-subheader.jpg");
     background-size: cover;
     background-position: top;
@@ -58,13 +51,11 @@
 
 .places-part {
 
-    padding: 310px 10px 0 10px;
-
+    padding: 310px 10px 0 10px
 }
 
-
 .section {
-    padding: 0 35px;
+    padding: 0 35px 35px 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,7 +250,7 @@
 
 /* sm */
 @media (min-width: 576px) {
-    .header__img {
+    .banner__img {
         padding: 0 65px;
     }
 
@@ -328,7 +319,7 @@
 
 /* md */
 @media (min-width: 768px) {
-    .header__img {
+    .banner__img {
         padding: 0 110px;
     }
 
@@ -390,11 +381,6 @@
         max-width: 410px;
     }
 
-    .section--reverse {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
     .blue-card {
         display: flex;
         flex-direction: row;
@@ -447,7 +433,7 @@
 
 /* lg */
 @media (min-width: 1240px) {
-    .header__img {
+    .banner__img {
         padding: 0 220px;
     }
 
@@ -497,11 +483,6 @@
     .btn {
         width: 142px;
         height: 48px;
-    }
-
-    .section--reverse {
-        display: flex;
-        flex-direction: row-reverse;
     }
 
     .blue-card__title {
