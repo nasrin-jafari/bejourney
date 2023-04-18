@@ -1,5 +1,6 @@
 const header = document.querySelector(".header");
 const headerLogo = document.querySelector(".header__logo__img");
+const desktopLinks = document.querySelector(".desktop__links");
 const headerPlaceholder = document.querySelector(".header-placeholder");
 const headerHeight = header.offsetHeight;
 const navLinksColor = document.querySelector(".nav-link");
@@ -30,11 +31,13 @@ window.addEventListener("scroll", function () {
     if (window.pageYOffset >= headerHeight) {
       header.classList.add("sticky");
       headerLogo.classList.add("sticky");
+      desktopLinks.classList.add("sticky");
       headerPlaceholder.style.display = "block";
       headerPlaceholder.style.height = `${headerHeight}px`;
     } else {
       header.classList.remove("sticky");
       headerLogo.classList.remove("sticky");
+      desktopLinks.classList.remove("sticky");
       headerPlaceholder.style.display = "none";
       headerPlaceholder.style.height = "0";
     }
