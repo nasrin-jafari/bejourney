@@ -903,4 +903,9 @@
         max-width: 300px;
         line-height: 24px;
     }
+    .desktop__links.sticky { 
+    display: flex; 
+    gap: 40px; 
+    width: 100%; 
+  }
 }
