@@ -32,7 +32,7 @@ window.addEventListener("scroll", function () {
       headerLogo.classList.add("sticky");
       headerPlaceholder.style.display = "block";
       headerPlaceholder.style.height = `${headerHeight}px`;
-       desktopLinks.classList.add("sticky");
+      desktopLinks.classList.add("sticky");
     } else {
       header.classList.remove("sticky");
       headerLogo.classList.remove("sticky");
@@ -83,24 +83,27 @@ function enableScroll() {
   window.onscroll = function () {};
 }
 
-
 // contact page script
-
 
 var emailInput = document.getElementById("email-input");
 var nameInput = document.getElementById("name-input");
 var errorIconEmail = document.getElementById("error-icon__email");
 var errorIconName = document.getElementById("error-icon__name");
 const nameErrorMessage = document.getElementById("error-message");
+const spinnerIcon = document.getElementById("spinner-icon");
+const errorMessageFaild = document.getElementById("error-message-faild");
+const submitButton = document.getElementById("submit-btn");
 
 emailInput.addEventListener("input", function (event) {
   if (emailInput.checkValidity()) {
     errorIconEmail.style.display = "none";
+    errorMessageFaild.style.display = "none";
   }
 });
 nameInput.addEventListener("input", function (event) {
   if (nameInput.value.trim() !== "") {
     errorIconName.style.display = "none";
+    errorMessageFaild.style.display = "none";
   }
 });
 document
@@ -109,45 +112,44 @@ document
     if (!emailInput.checkValidity()) {
       errorIconEmail.style.display = "block";
       nameErrorMessage.style.display = "block";
+      errorMessageFaild.style.display = "none";
+      spinnerIcon.style.display = "block";
     } else {
       document.getElementById("contact-from").submit();
       errorIconEmail.style.display = "none";
       nameErrorMessage.style.display = "none";
+      errorMessageFaild.style.display = "none";
     }
   });
 document
   .getElementById("submit-btn")
   .addEventListener("click", function (event) {
+    if (emailInput.checkValidity() && nameInput.value.trim() !== "") {
+      nameErrorMessage.style.display = "none";
+      errorMessageFaild.style.display = "block";
+      spinnerIcon.style.display = "block";
+    } else {
+      document.getElementById("contact-from").submit();
+      nameErrorMessage.style.display = "block";
+      errorMessageFaild.style.display = "none";
+    }
+  });
+document
+  .getElementById("submit-btn")
+  .addEventListener("click", function (event) {
+    setTimeout(() => {
+      spinnerIcon.style.display = "none";
+    }, 1000);
     if (nameInput.value === "") {
       errorIconName.style.display = "block";
       nameErrorMessage.style.display = "block";
+      spinnerIcon.style.display = "block";
     } else {
       document.getElementById("contact-from").submit();
       errorIconName.style.display = "none";
       nameErrorMessage.style.display = "none";
     }
   });
-
-// var emailInput = document.getElementById("name_input");
-//       emailInput.addEventListener("input", function (event) {
-//         var errorIcon = document.getElementById("error-icon__container");
-//         if (emailInput.checkValidity()) {
-//           // مخفی کردن آیکون خطا در صورت اصلاح ایمیل
-//           errorIcon.style.display = "none";
-//         }
-//       });
-//       document
-//         .getElementById("submit-btn")
-//         .addEventListener("click", function (event) {
-//           if (!emailInput.checkValidity()) {
-//             // نمایش خطا یا آیکون خطا
-//             var errorIcon = document.getElementById("error-icon__container");
-//             errorIcon.style.display = "block";
-//           } else {
-//             // ارسال فرم
-//             document.getElementById("form__email").submit();
-//           }
-//         });
 (function (document) {
   var animation = false,
     animationstring = "animation",

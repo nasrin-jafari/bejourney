@@ -435,13 +435,13 @@
 }
 
 
-.card__tours-title-text {
+.card__tours-title {
     font-family: var(--font-YesevaOne);
     font-weight: var(--font-weight-normal);
     text-align: center;
     font-size: var(--font-h1-xs);
     color: var(--color-text-white);
-    line-height: 45px;
+    line-height: 36px;
     letter-spacing: 0;
 }
 
@@ -623,6 +623,10 @@
     }
 
     .banner__caption {
+        font-size: var(--font-body-defult);
+        font-family: var(--font-popins);
+        font-weight: var(--font-weight-normal) ;
+        color: var(--color-text-dark);
         padding: 0 51px 0 40px;
         line-height: 23px;
     }
@@ -634,10 +638,12 @@
     }
 
     .card__caption-first-space {
+        font-family: var(--font-popins);
+        font-size: var(--font-body-defult);
         line-height: 23px;
     }
 
-    .card__tours-title-text {
+    .card__tours-title {
         font-family: var(--font-YesevaOne);
         font-weight: var(--font-weight-normal);
         font-size: var(--font-h1-sm);
@@ -770,6 +776,10 @@
     }
 
     .banner__caption {
+        font-size: var(--font-body-defult);
+        font-family: var(--font-popins);
+        font-weight: var(--font-weight-normal) ;
+        color: var(--color-text-dark);
         line-height: 26px;
     }
 
@@ -812,13 +822,15 @@
     }
 
     .card__caption-first-space {
+        font-family: var(--font-popins);
+        font-size: var(--font-body-defult);
         line-height: 26px;
     }
 
-    .card__tours-title-text {
+    .card__tours-title {
         font-family: var(--font-YesevaOne);
         font-weight: var(--font-weight-normal);
-        font-size: 3.2rem;
+        font-size: var(--font-h1-md);
         line-height: 51px;
         letter-spacing: 0;
     }
@@ -866,11 +878,10 @@
         width: 100%;
     }
 
-
-      .nav-link {
+    .nav-link {
     font-size: 0.75rem;
     letter-spacing: 1px;
-    font-family: "Poppins";
+    font-family: var(--font-popins-normal);
     font-weight: 900 !important;
   }
     .nav-link.active {
@@ -896,7 +907,7 @@
     }
 
     .banner__caption {
-        font-size: var(--font-btn-lg);
+        font-size: var(--font-body-defult);
         font-family: var(--font-popins);
         font-weight: var(--font-weight-normal) ;
         color: var(--color-text-dark);
@@ -924,7 +935,7 @@
         padding-bottom: 80px;
     }
 
-    .card__tours-title-text {
+    .card__tours-title {
         font-size: var(--font-h1-lg);
         font-family: var(--font-YesevaOne);
         font-weight: var(--font-weight-normal);
@@ -949,7 +960,8 @@
     }
 
     .card__caption-first-space {
-        font-size: var(--font-h3-xs);
+        font-family: var(--font-popins);
+        font-size: var(--font-body-defult);
         line-height: 30px;
     }
 

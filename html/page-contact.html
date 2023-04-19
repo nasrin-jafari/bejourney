@@ -63,10 +63,14 @@
         <button class="buy-now">Buy now ></button>
       </div>
       <div class="sidebar__links">
-        <a class="nav-link  sidebarColor" href="./page-home.html">HOME</a>
-        <a class="nav-link sidebarColor" href="./page-about-us.html">ABOUT US</a>
+        <a class="nav-link sidebarColor" href="./page-home.html">HOME</a>
+        <a class="nav-link sidebarColor" href="./page-about-us.html"
+          >ABOUT US</a
+        >
         <a class="nav-link sidebarColor" href="./page-tours.html">TOURS</a>
-        <a class="nav-link sidebarColor" href="./page-our-team.html">OUR TEAM</a>
+        <a class="nav-link sidebarColor" href="./page-our-team.html"
+          >OUR TEAM</a
+        >
         <a class="nav-link sidebarColor active" href="#">CONTACT</a>
       </div>
     </div>
@@ -193,14 +197,17 @@
                 value="Send a message"
                 id="submit-btn"
                 class="section3__internal-button"
-                onclick="var d=document.documentElement;p='className';c='cssanimations';n='no-'+c;d[p]=(d[p].replace(' ','')===n)?c:n;console.log(d[p],n,c)"
               />
               <div class="spinner__container">
-                <div class="spinner"></div>
+                <div class="spinner" id="spinner-icon"></div>
               </div>
             </div>
             <div id="error-message">
               One or more fields have an error. Please check and try again.
+            </div>
+            <div id="error-message-faild">
+              There was an error trying to send your message. Please try again
+              later.
             </div>
           </form>
         </div>
