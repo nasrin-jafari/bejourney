@@ -196,7 +196,7 @@
   height: auto;
 }
 .section2__container {
-  padding: 0 33px 0 33px;
+  padding: 0 10px 0 10px;
   width: 100%;
   height: 100%;
 }
@@ -226,13 +226,12 @@
   margin-bottom: 20px;
 }
 .block__description {
-  max-width: 400px;
-  font-weight: 400;
-  line-height: 24px;
+  font-weight: var(--font-weight-normal);
+  line-height: 30px;
   font-family: var(--font-YesevaOne);
-  font-size: 1rem;
+  font-size: 0.8125rem;
   text-align: center;
-  padding: 0 88px 0 88px;
+  padding: 0 85px 0 80px;
   color: var(--color-text-bg-green);
   margin-bottom: 40px;
 }
@@ -252,7 +251,7 @@
   font-weight: var(--font-weight-normal);
   color: var(--color-text-white);
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 .section3_internal-form {
   width: 100%;
@@ -286,11 +285,15 @@ form {
   display: none;
   color: #1a404a;
   margin-top: 24px;
+  font-family: var(--font-popins);
+  font-size: var(--font-body-default);
 }
 #error-message-faild {
   display: none;
   color: #1a404a;
   margin-top: 24px;
+  font-family: var(--font-popins);
+  font-size: var(--font-body-default);
 }
 input {
   outline: none;
