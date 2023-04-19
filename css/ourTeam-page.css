@@ -876,7 +876,11 @@
     }
 
     .banner__text {
-        margin-left: 75px;
+        margin-left: 190px;
+    }
+
+    .banner__text-box{
+        width: 480px;
     }
 
     .banner__title-style {
@@ -887,6 +891,7 @@
     .banner__caption {
         font-size: var(--font-h3-xs);
         line-height: 30px;
+        margin-top: 44px;
     }
 
     .card-orbit {
