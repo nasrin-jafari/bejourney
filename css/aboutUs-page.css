@@ -781,6 +781,9 @@
  }
 /* lg */
 @media (min-width: 1240px) {
+  .third-section__main-title {
+    font-size: var(--font-h1-lg);
+  }
   .top-section__description__paragraph {
     width: 374px;
     height: 90px;
