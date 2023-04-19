@@ -703,6 +703,8 @@
     .tours-destinations__header__img {
         width: 85%;
     }
+
+
 }
 
 
@@ -860,6 +862,10 @@
     .tours-destinations__header__img {
         width: 90%;
     }
+
+    .card__tours-information {
+        padding: 0;
+    }
 }
 
 
@@ -1012,7 +1018,8 @@
     .tours-destinations__header {
         padding: 0 56px;
     }
-    .tours-destinations__header__img{
-        width: 93%;
+
+    .tours-destinations__header__img {
+        width: 80%;
     }
 }
