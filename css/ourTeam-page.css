@@ -382,7 +382,6 @@
 
 .tours-destinations__header__img {
     width: 80%;
-    max-width: 500px;
     height: auto;
     background-image: url("../assets/images/img/image-our-team-page/bg-2.jpg");
     background-position: center center;
@@ -397,11 +396,13 @@
 .tours-destinations__btn-play {
     width: 180px;
     height: 180px;
-    cursor: pointer;
 }
 
 .tours-destinations__btn-play--hover-mode {
     display: none;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
 }
 
 .tours-destinations__btn-play:hover + .tours-destinations__btn-play--hover-mode {
@@ -563,7 +564,7 @@
 
 /*float iframe */
 .video-container {
-    display: flex;
+    /*display: flex;*/
     padding: 0 33px;
     flex-direction: column;
     align-items: center;
