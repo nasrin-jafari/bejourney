@@ -339,6 +339,7 @@ textarea:focus {
   cursor: pointer;
   color: var(--color-text-white);
   font-family: var(--font-popins);
+  margin-bottom: 50px;
 }
 .btn-wraper {
   display: flex;
