@@ -303,6 +303,7 @@
     font-family: var(--font-popins);
     font-size: var(--font-body-defult);
     font-weight: var(--font-weight-normal);
+    color: var(--color-text-dark);
     line-height: 19px;
     letter-spacing: 0;
 }
@@ -429,36 +430,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.card__tours-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-bottom: 60px;
 }
 
-.card__tours-title1 {
+
+.card__tours-title-text {
     font-family: var(--font-YesevaOne);
     font-weight: var(--font-weight-normal);
     text-align: center;
     font-size: var(--font-h1-xs);
     color: var(--color-text-white);
-    line-height: 36px;
+    line-height: 45px;
     letter-spacing: 0;
-    padding: 0 15px;
 }
 
-.card__tours-title2 {
-    font-family: var(--font-YesevaOne);
-    font-weight: var(--font-weight-normal);
-    width: 100%;
-    text-align: center;
-    font-size: var(--font-h1-xs);
-    color: var(--color-text-white);
-    line-height: 36px;
-    letter-spacing: 0;
-}
 
 .card__tours-descriptions {
     padding: 0 10px;
@@ -479,9 +465,9 @@
 
 .card__tours-descriptions_others-p {
     color: #c8e6e5;
-    font-size: var(--font-h3-xs);
+    font-size: 0.8125rem;
     font-family: var(--font-popins);
-    line-height: 19px;
+    line-height: 21px;
     letter-spacing: normal;
     word-spacing: 0;
     margin-bottom: 15px;
@@ -651,7 +637,7 @@
         line-height: 23px;
     }
 
-    .card__tours-title1, .card__tours-title2 {
+    .card__tours-title-text {
         font-family: var(--font-YesevaOne);
         font-weight: var(--font-weight-normal);
         font-size: var(--font-h1-sm);
@@ -823,7 +809,7 @@
         line-height: 26px;
     }
 
-    .card__tours-title1, .card__tours-title2 {
+    .card__tours-title-text {
         font-family: var(--font-YesevaOne);
         font-weight: var(--font-weight-normal);
         font-size: 3.2rem;
@@ -898,9 +884,12 @@
     }
 
     .banner__caption {
-        font-size: var(--font-h3-xs);
+        font-size: var(--font-btn-lg);
+        font-family: var(--font-popins);
+        font-weight: var(--font-weight-normal) ;
+        color: var(--color-text-dark);
         line-height: 30px;
-        margin-top: 44px;
+        margin-top: 40px;
     }
 
     .card-orbit {
@@ -923,7 +912,7 @@
         padding-bottom: 80px;
     }
 
-    .card__tours-title1, .card__tours-title2 {
+    .card__tours-title-text {
         font-size: var(--font-h1-lg);
         font-family: var(--font-YesevaOne);
         font-weight: var(--font-weight-normal);
@@ -967,4 +956,16 @@
         padding-left: 75px;
     }
     
+    .card__tours-information{
+        width: 90%;
+    }
+    .card__tours-orbit{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card-tours{
+        padding: 120px 0 100px;
+    }
 }
