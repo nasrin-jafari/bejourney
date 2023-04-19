@@ -868,12 +868,13 @@
         width: 100%;
     }
 
-    .nav-link {
-        font-weight: var(--font-weight-bold);
-        font-size: 0.87rem;
-        letter-spacing: 1px;
-    }
 
+      .nav-link {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    font-family: "Poppins";
+    font-weight: 900 !important;
+  }
     .nav-link.active {
         color: var(--color-text-dark);
     }
@@ -939,7 +940,7 @@
         font-size: var(--font-h3-xs);
         line-height: 30px;
     }
-
+       
     .card__tour-leaders {
         font-size: var(--font-h2-lg);
         line-height: 55px;
@@ -965,4 +966,5 @@
     .card__avatar-information {
         padding-left: 75px;
     }
+    
 }

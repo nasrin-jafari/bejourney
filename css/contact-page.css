@@ -435,7 +435,7 @@ textarea:focus {
 .footer__links:hover {
   text-decoration: underline;
 }
-.spinner__container{
+.spinner__container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -660,10 +660,12 @@ textarea:focus {
     gap: 40px;
     width: 55%;
   }
+
   .nav-link {
-    font-weight: var(--font-weight-bold);
-    font-size: 0.87rem;
+    font-size: 0.75rem;
     letter-spacing: 1px;
+    font-family: "Poppins";
+    font-weight: 900 !important;
   }
   .nav-link.activ {
     color: var(--color-text-dark);
@@ -671,5 +673,10 @@ textarea:focus {
   .header__logo {
     width: 280px;
     height: 100%;
+  }
+  .desktop__links.sticky {
+    display: flex;
+    gap: 40px;
+    width: 100%;
   }
 }
