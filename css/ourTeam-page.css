@@ -127,6 +127,7 @@
 
 .nav-link {
     font-family: var(--font-popins);
+    font-weight: var(--font-weight-bolder);
     color: var(--color-text-bg-green);
     font-size: var(--font-body-defult);
     transition: 0.5s ease;
@@ -575,7 +576,7 @@
     display: none;
 }
 
-.close-icone {
+.close-icon {
     display: none;
 }
 
@@ -865,7 +866,7 @@
         letter-spacing: 1px;
     }
 
-    .nav-link.activ {
+    .nav-link.active {
         color: var(--color-text-dark);
     }
 
