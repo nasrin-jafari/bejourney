@@ -4,6 +4,10 @@
     url(../assets/fonts/Poppins/Poppins-Regular.eot) format("eot");
 }
 @font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins/Poppins-Light.woff) format("woff")
+}
+@font-face {
   font-family: "Yeseva-One";
   src: url(../assets/fonts/YesevaOne-Regular.woff) format("woff");
 }
