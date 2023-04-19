@@ -623,6 +623,10 @@
     }
 
     .banner__caption {
+        font-size: var(--font-body-defult);
+        font-family: var(--font-popins);
+        font-weight: var(--font-weight-normal) ;
+        color: var(--color-text-dark);
         padding: 0 51px 0 40px;
         line-height: 23px;
     }
@@ -770,6 +774,10 @@
     }
 
     .banner__caption {
+        font-size: var(--font-body-defult);
+        font-family: var(--font-popins);
+        font-weight: var(--font-weight-normal) ;
+        color: var(--color-text-dark);
         line-height: 26px;
     }
 
@@ -866,7 +874,6 @@
         width: 100%;
     }
 
-
     .nav-link {
     font-size: 0.75rem;
     letter-spacing: 1px;
@@ -896,7 +903,7 @@
     }
 
     .banner__caption {
-        font-size: var(--font-btn-lg);
+        font-size: var(--font-body-defult);
         font-family: var(--font-popins);
         font-weight: var(--font-weight-normal) ;
         color: var(--color-text-dark);
