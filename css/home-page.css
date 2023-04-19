@@ -775,7 +775,6 @@ body {
     width: 55%;
   }
   .nav-link {
-    /* font-weight: var(--font-weight-bold); */
     font-size: 0.75rem;
     letter-spacing: 1px;
     font-family: "Poppins";
