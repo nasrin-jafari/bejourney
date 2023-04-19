@@ -888,11 +888,6 @@
     width: 280px;
     height: 100%;
   }
-  .desktop__links.sticky { 
-    display: flex; 
-    gap: 40px; 
-    width: 100;
-  }
   .middle-section {
     max-width:100%;
     display: flex;
