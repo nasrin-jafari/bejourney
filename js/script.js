@@ -1,3 +1,4 @@
+const desktopLinks = document.querySelector(".desktop__links");
 const header = document.querySelector(".header");
 const headerLogo = document.querySelector(".header__logo__img");
 const headerPlaceholder = document.querySelector(".header-placeholder");
@@ -28,11 +29,13 @@ function closeNav() {
 window.addEventListener("scroll", function () {
   if (!document.getElementById("mySidebar").classList.contains("active")) {
     if (window.pageYOffset >= headerHeight) {
+      desktopLinks.classList.add("sticky");   
       header.classList.add("sticky");
       headerLogo.classList.add("sticky");
       headerPlaceholder.style.display = "block";
       headerPlaceholder.style.height = `${headerHeight}px`;
     } else {
+      desktopLinks.classList.remove("sticky");  
       header.classList.remove("sticky");
       headerLogo.classList.remove("sticky");
       headerPlaceholder.style.display = "none";
