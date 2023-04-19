@@ -324,6 +324,7 @@ body {
 .process__badge {
   width: 72px;
   padding: 4px 0;
+  border-radius: 24px;
   color: var(--color-badge);
   background-color: var(--color-btn);
   font-family: var(--font-YesevaOne);
@@ -466,6 +467,7 @@ body {
   right: 0;
   left: 0;
   display: none;
+  /* aspect-ratio: 16 / 9; */
 }
 .close-icone {
   display: none;
@@ -480,8 +482,8 @@ body {
 .video {
   width: 100%;
   max-width: 900px;
-  height: 290px;
-  box-shadow: 5px 5px 8px #9da2a73d, -5px -5px 8px #9da2a716;
+  height: 280px;
+  box-shadow: 5px 5px 8px #9da2a722, -5px -5px 8px #9da2a722;
 }
 .caver {
   z-index: 20;
@@ -577,7 +579,11 @@ body {
   .heading-1--banner {
     max-width: 100%;
   }
+  .video {
+    height: 360px;
+  }
 }
+
 /* md */
 @media (min-width: 768px) {
   /* css general home page */
@@ -726,6 +732,9 @@ body {
   .description--tour-guides {
     width: 54%;
   }
+  .video {
+    height: 400px;
+  }
 }
 /* lg */
 @media (min-width: 1240px) {
@@ -759,9 +768,11 @@ body {
     width: 55%;
   }
   .nav-link {
-    font-weight: var(--font-weight-bold);
-    font-size: 0.87rem;
+    /* font-weight: var(--font-weight-bold); */
+    font-size: 0.75rem;
     letter-spacing: 1px;
+    font-family: "Poppins";
+    font-weight: 800 !important;
   }
   .nav-link.activ {
     color: var(--color-text-dark);

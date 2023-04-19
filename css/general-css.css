@@ -22,7 +22,13 @@
     src: url(../assets/fonts/Poppins/Poppins-ExtraLight.woff) format("woff"),
   url(../assets/fonts/Poppins/Poppins-ExtraLight.eot) format("eot");
 }
+@font-face{
+  font-family: "popins-bold";
+    src: url(../assets/fonts/Poppins/Poppins-Bold.woff) format("woff");
+
+}
 :root {
+  --font-popins-normal: "Poppins"
   --font-popins: "Poppins-Light";
   --font-YesevaOne: "Yeseva-One";
   --font-Helvetica: "Helvetica";
