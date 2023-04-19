@@ -303,13 +303,11 @@
     padding: 0 35px;
     width: 85%;
     font-family: var(--font-popins);
-    font-size: var(--font-h3-xs);
+    font-size: var(--font-body-defult);
     color: var(--color-text-dark);
-    opacity: 95%;
 }
 
 .places-part {
-
     padding: 250px 10px 0 10px
 }
 
@@ -375,8 +373,10 @@
     width: 90%;
     max-width: 380px;
     line-height: 20px;
-    opacity: 98%;
-    font-family: var(--font-popins);
+        font-family: var(--font-popins);
+    font-size: var(--font-body-defult);
+    color: var(--color-text-dark);
+
 }
 
 .details__main-bottom {
@@ -385,8 +385,9 @@
     width: 90%;
     max-width: 380px;
     line-height: 20px;
-    opacity: 98%;
     font-family: var(--font-popins);
+    font-size: var(--font-body-defult);
+    color: var(--color-text-dark);
 }
 
 .btn {
@@ -449,17 +450,23 @@
 
 .blue-card__top {
     padding-top: 20px;
-    color: var(--color-text-white);
+    /* color: var(--color-text-white); */
     line-height: 20px;
+    /* font-family: var(--font-popins); */
     font-family: var(--font-popins);
+    font-size: var(--font-body-defult);
+    color: var(--color-text-dark);
 
 }
 
 .blue-card__bottom {
     padding: 12px 0 38px 0;
-    color: var(--color-text-white);
+    /* color: var(--color-text-white); */
     line-height: 20px;
-    font-family: var(--font-popins);
+    /* font-family: var(--font-popins); */
+        font-family: var(--font-popins);
+    font-size: var(--font-body-defult);
+    color: var(--color-text-dark);
 }
 
 .process {
@@ -506,8 +513,8 @@
 
 .card__text {
     font-family: var(--font-popins);
+    font-size: var(--font-body-defult);
     color: var(--color-text-dark);
-    font-size: var(--font-h3-xs);
     padding: 20px 0 45px 0;
     width: 85%;
     max-width: 420px;
