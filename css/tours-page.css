@@ -302,7 +302,7 @@
 .text__subtext__index {
     padding: 0 35px;
     width: 85%;
-    font-family: var(--font-Helvetica);
+    font-family: var(--font-popins);
     font-size: var(--font-h3-xs);
     color: var(--color-text-dark);
     opacity: 95%;
@@ -310,7 +310,7 @@
 
 .places-part {
 
-    padding: 280px 10px 0 10px
+    padding: 250px 10px 0 10px
 }
 
 .section {
@@ -352,14 +352,13 @@
     align-items: center;
     text-align: center;
     padding: 35px 0;
-    font-family: var(--font-Helvetica);
     color: var(--color-text-dark);
     font-size: var(--font-h3-xs);
 }
 
 .details__icon {
     width: 100%;
-    max-width: 230px;
+    max-width: 200px;
     height: auto;
     max-height: 180px;
 }
@@ -377,6 +376,7 @@
     max-width: 380px;
     line-height: 20px;
     opacity: 98%;
+    font-family: var(--font-popins);
 }
 
 .details__main-bottom {
@@ -386,6 +386,7 @@
     max-width: 380px;
     line-height: 20px;
     opacity: 98%;
+    font-family: var(--font-popins);
 }
 
 .btn {
@@ -393,6 +394,7 @@
     height: 42px;
     border-radius: 50px;
     color: var(--color-text-white);
+    font-family: var(--font-popins);
     font-size: var(--font-btn-defult);
     background-color: var(--color-text-bg-green);
     border-style: none;
@@ -417,7 +419,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: var(--font-Helvetica);
 }
 
 .blue-card__img {
@@ -450,6 +451,7 @@
     padding-top: 20px;
     color: var(--color-text-white);
     line-height: 20px;
+    font-family: var(--font-popins);
 
 }
 
@@ -457,6 +459,7 @@
     padding: 12px 0 38px 0;
     color: var(--color-text-white);
     line-height: 20px;
+    font-family: var(--font-popins);
 }
 
 .process {
@@ -481,12 +484,13 @@
 }
 
 .card__step {
-    background-color: #f5e9d9;
-    color: #cc9b7b;
     padding: 5px 12px;
     border-radius: 50px;
-    font-size: var(--font-h3-xs);
+    color: var(--color-badge);
+    background-color: var(--color-btn);
+    font-family: var(--font-YesevaOne);
     font-weight: var(--font-weight-bold);
+    font-size: var(--font-btn-defult);
 }
 
 .card__img {
@@ -495,13 +499,13 @@
 
 .card__title {
     color: var(--color-text-bg-green);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bolder);
     width: 70%;
     max-width: 500px;
 }
 
 .card__text {
-    font-family: var(--font-Helvetica);
+    font-family: var(--font-popins);
     color: var(--color-text-dark);
     font-size: var(--font-h3-xs);
     padding: 20px 0 45px 0;
@@ -672,7 +676,7 @@
     }
 
     .section {
-        padding: 0 35px;
+        padding: 0 50px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -681,9 +685,9 @@
 
     .section__img-box {
         width: 50%;
-        max-width: 420px;
+        max-width: 470px;
         height: 100%;
-        max-height: 420px;
+        max-height: 470px;
         cursor: pointer;
         margin: auto;
         overflow: hidden;
@@ -711,6 +715,7 @@
         padding-top: 30px;
         width: 70%;
         max-width: 410px;
+        line-height: 27px;
     }
 
     .details__main-bottom {
@@ -718,13 +723,14 @@
         padding-bottom: 35px;
         width: 85%;
         max-width: 410px;
+        line-height: 27px;
     }
 
     .blue-card {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding-top: 100px;
+        padding-top: 42px;
     }
 
     .blue-card__img {
@@ -746,6 +752,7 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
+        padding-bottom: 60px;
     }
 
     .process-title {
@@ -790,7 +797,7 @@
     .nav-link {
     font-size: 0.75rem;
     letter-spacing: 1px;
-    font-family: "Poppins";
+    font-family: var(--font-popins);
     font-weight: 900 !important;
   }
 
