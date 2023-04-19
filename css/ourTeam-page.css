@@ -365,6 +365,125 @@
     flex-direction: column;
     padding-right: 18px;
 }
+
+.tours-destinations {
+    width: 100%;
+    height: auto;
+}
+
+.tours-destinations__header {
+    padding-top: 40px;
+    background-image: url("../assets/images/img/image-our-team-page/bg-.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tours-destinations__header__img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    background-image: url("../assets/images/img/image-our-team-page/bg-2.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 180px 32px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tours-destinations__btn-play {
+    width: 180px;
+    height: 180px;
+}
+
+.tours-destinations__btn-play--hover-mode {
+    display: none;
+    width: 180px;
+    height: 180px;
+}
+
+.tours-destinations__btn-play:hover + .tours-destinations__btn-play--hover-mode {
+    display: flex;
+}
+
+.tours-destinations__btn-play:hover {
+    display: none;
+}
+
+.card-tours {
+    padding: 120px 0 80px;
+    background-color: #00a2a0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__tours-orbit {
+    width: 80%;
+}
+
+.card__tours-title-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__tours-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.card__tours-title1 {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 36px;
+    color: white;
+    letter-spacing: 0;
+    padding: 0 15px;
+}
+
+.card__tours-title2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 36px;
+    color: white;
+    letter-spacing: 0;
+}
+
+/*.card__tours-information {*/
+/*    width: 100%;*/
+/*}*/
+
+.card__tours-descriptions {
+    /*border: 1px solid red;*/
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__tours-descriptions_first-p {
+    color: white;
+    font-size: 0.9rem;
+    line-height: 19px;
+    letter-spacing: normal;
+    word-spacing: 0;
+    margin-bottom: 15px;
+}
+
+.card__tours-descriptions_others-p {
+    color: #c8e6e5;
+    font-size: 0.9rem;
+    line-height: 19px;
+    letter-spacing: normal;
+    word-spacing: 0;
+    margin-bottom: 15px;
+}
 /* sm */
 @media (min-width: 576px) {
     .header__desktop {
