@@ -867,10 +867,10 @@
     }
 
 
-      .nav-link {
+    .nav-link {
     font-size: 0.75rem;
     letter-spacing: 1px;
-    font-family: "Poppins";
+    font-family: var(--font-popins-normal);
     font-weight: 900 !important;
   }
     .nav-link.active {
