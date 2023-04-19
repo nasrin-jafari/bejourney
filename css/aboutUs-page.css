@@ -282,7 +282,7 @@
     font-family: var(--font-popins);
     color: var(--color-text-dark);
     font-size: var(--font-body-defult);
-    opacity: 0.9;
+    /* opacity: 0.9; */
 
   }
   .middle-section__title {
@@ -290,6 +290,7 @@
     color: var(--color-text-dark);
     font-size: var(--font-h2-xs);
     padding-bottom: 12px;
+    font-weight: var(--font-weight-normal);
 
   }
   .middle-section__description {
@@ -349,13 +350,14 @@
   .third-section__title {
     font-family: var( --font-YesevaOne);
     color: var(--color-text-white);
+    font-weight: 400;
     font-size: 8px;
     max-width: 452px;
     max-height: 52px;
     text-align: center;
     padding-top: 32px;
     letter-spacing: 1px;
-    opacity: 0.91;
+    /* opacity: 0.91; */
    
     
   }
@@ -448,7 +450,7 @@
     line-height: 21px;
   }
   .fourth-section__main-description {
-    font-family: var(--font-YesevaOne);
+    font-family: var(--font-popins);
     font-size: var(--font-body-defult);
     color: var(--color-text-dark);
     padding-top: 24px;
@@ -459,7 +461,8 @@
     padding-left: 32px;
     padding-left: 32px;
     width: 100%;
-    opacity: 0.9;
+    font-weight: var(--font-weight-normal);
+    /* opacity: 0.9; */
 
   }
   .fourth-section__button {
@@ -765,6 +768,8 @@
   }
   .fourth-section__main-title {
     font-size: var(--font-h1-lg);
+    line-height: 60px;
+    font-weight: var(--font-weight-normal);
   }
   .fourth-section__main-description {
     font-size: var( --font-body-lg);
@@ -824,11 +829,13 @@
     max-width: 100%;
   }
   .fourth-section {
+    padding-bottom: 87px;
     max-width: 100%;
   }
   .middle-section__title {
     max-width: 458px;
     max-height: 180px;
+    font-size: var(--font-h1-md);
   }
   .middle-section__main-paragraph {
     max-width: 458px;
