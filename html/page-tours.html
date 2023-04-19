@@ -11,6 +11,288 @@
       href="../assets/images/icons/fav-icon.png"
     />
     <link rel="stylesheet" href="../css/tours-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="overlay"></div>
+    <div class="container" id="main">
+      <div class="header">
+        <div class="header__logo">
+          <img
+            class="header__logo__img"
+            src="../assets/images/img/image-header-footer/retina-journey2.png"
+            alt="logo-img"
+          />
+        </div>
+        <div class="desktop__links">
+          <a class="nav-link" href="page-home.html">HOME</a>
+          <a class="nav-link" href="page-about us.html">ABOUT US</a>
+          <a class="nav-link activ" href="#">TOURS</a>
+          <a class="nav-link" href="page-our team.html">OUR TEAM</a>
+          <a class="nav-link" href="page-contact.html">CONTACT</a>
+        </div>
+        <div class="header__hamburger" id="bar" onclick="openNav()">
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+        </div>
+        <div class="header__desktop">
+          <div class="desktop__menu-button">
+            <button class="desktop__buy-now">Buy now ></button>
+          </div>
+        </div>
+      </div>
+      <div class="header-placeholder"></div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+      <div class="sidebar__cross">
+        <a
+          aria-colspan="close-button"
+          href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeNav()"
+          ><i class="fa fa-xmark fa-lg" style="color: #949fa6"></i
+        ></a>
+      </div>
+      <div class="sidebar__button">
+        <button class="buy-now">Buy now ></button>
+      </div>
+      <div class="sidebar__links">
+        <a class="nav-link sidebarColor" href="page-home.html">HOME</a>
+        <a class="nav-link sidebarColor" href="page-about us.html">ABOUT US</a>
+        <a class="nav-link active sidebarColor" href="#">TOURS</a>
+        <a class="nav-link sidebarColor" href="page-our team.html">OUR TEAM</a>
+        <a class="nav-link sidebarColor" href="page-contact.html">CONTACT</a>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="banner">
+        <div id="top" class="banner__img">
+          <div class="img__text">
+            <h1 class="img__text__title">Tours</h1>
+            <div class="img__text__subtext">
+              <div class="text__subtext__index">
+                Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis
+                nibh magna. Proin risus erat, fringilla vel purus sit amet,
+                mattis porta enim.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="places-part">
+        <div class="section">
+          <div class="section__img-box">
+            <a href="#top"
+              ><img
+                class="img-box__img"
+                src="../assets/images/img/image-tours-page/journey2-tours-pic1.jpg"
+                alt="pic1"
+            /></a>
+          </div>
+          <div class="section__details">
+            <img
+              class="details__icon"
+              src="../assets/images/img/image-tours-page/journey2-tours-icon1.png"
+              alt="icon1"
+            />
+            <div class="details__title">Cuba</div>
+            <div class="details__main-top">
+              Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan,
+              massa non consectetur condimentum, diam arcu tristique.
+            </div>
+            <div class="details__main-bottom">
+              Nec egestas diam elit at nulla. Suspendisse potenti. In non
+              lacinia risus, ac tempor ipsum. Phasellus venenatis leo eu semper
+              varius. Maecenas sit amet molestie leo.
+            </div>
+            <div>
+              <a class="btn" href="#top">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section__details">
+            <img
+              class="details__icon"
+              src="../assets/images/img/image-tours-page/journey2-tours-icon2.png"
+              alt="icon2"
+            />
+            <div class="details__title">Jamaica</div>
+            <div class="details__main-top">
+              Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan,
+              massa non consectetur condimentum, diam arcu tristique.
+            </div>
+            <div class="details__main-bottom">
+              Nec egestas diam elit at nulla. Suspendisse potenti. In non
+              lacinia risus, ac tempor ipsum. Phasellus venenatis leo eu semper
+              varius. Maecenas sit amet molestie leo.
+            </div>
+            <div>
+              <a class="btn" href="#top">READ MORE</a>
+            </div>
+          </div>
+          <div class="section__img-box">
+            <a href="#top"
+              ><img
+                class="img-box__img"
+                src="../assets/images/img/image-tours-page/journey2-tours-pic2.jpg"
+                alt="pic2"
+            /></a>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section__img-box">
+            <a href="#top"
+              ><img
+                class="img-box__img"
+                src="../assets/images/img/image-tours-page/journey2-tours-pic3.jpg"
+                alt="pic3"
+            /></a>
+          </div>
+          <div class="section__details">
+            <img
+              class="details__icon"
+              src="../assets/images/img/image-tours-page/journey2-tours-icon3.png"
+              alt="pic3"
+            />
+            <div class="details__title">Costa Rica</div>
+            <div class="details__main-top">
+              Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan,
+              massa non consectetur condimentum, diam arcu tristique.
+            </div>
+            <div class="details__main-bottom">
+              Nec egestas diam elit at nulla. Suspendisse potenti. In non
+              lacinia risus, ac tempor ipsum. Phasellus venenatis leo eu semper
+              varius. Maecenas sit amet molestie leo.
+            </div>
+            <div>
+              <a class="btn" href="#top">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blue-card">
+        <div class="blue-card__img"></div>
+        <div class="blue-card__details">
+          <div class="blue-card__title">
+            Mauris rhoncus orci in imperdiet placerat
+          </div>
+          <div class="blue-card__top">
+            Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl
+            suscipit ligula volutpat, a feugiat urna maximus.
+          </div>
+          <div class="blue-card__bottom">
+            Cras massa nibh, tincidunt ut eros a, vulputate consequat odio.
+            Vestibulum vehicula tempor nulla, sed hendrerit urna interdum in.
+            Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam
+            quis quam venenatis fringilla.
+          </div>
+          <div>
+            <a class="btn" href="#top">READ MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="process">
+        <div class="process-title">The process</div>
+        <div class="process-part">
+          <div class="process-part__card">
+            <div class="card__step">STEP 1</div>
+            <img
+              class="card__img"
+              src="../assets/images/img/image-tours-page/journey2-home-icon1.png"
+              alt="icon2-1"
+            />
+            <div class="card__title">Mauris rhoncus orci in imperdiet</div>
+            <div class="card__text">
+              Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna
+              maximus. Cras massa tincidunt ut eros.
+            </div>
+          </div>
+          <div class="process-part__card">
+            <div class="card__step">STEP 2</div>
+            <img
+              class="card__img"
+              src="../assets/images/img/image-tours-page/journey2-home-icon2.png"
+              alt="icon2-2"
+            />
+            <div class="card__title">Euismod nisl suscipit ligula volutpat</div>
+            <div class="card__text">
+              Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna
+              maximus. Cras massa tincidunt ut eros.
+            </div>
+          </div>
+          <div class="process-part__card">
+            <div class="card__step">STEP 3</div>
+            <img
+              class="card__img"
+              src="../assets/images/img/image-tours-page/journey2-home-icon3.png"
+              alt="icon2-3"
+            />
+            <div class="card__title">Aliquam erat ac ipsum aliquam</div>
+            <div class="card__text">
+              Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna
+              maximus. Cras massa tincidunt ut eros.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__container">
+        <div class="footer">
+          <div class="footer__logo">
+            <img
+              src="../assets/images/img/image-header-footer/journey2-footer-logo.png"
+              alt="footer-logo"
+            />
+          </div>
+          <div class="footer__text">
+            <p>
+              Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a
+              pellentesque dui, non felis. Maecenas malesuada elit lectus felis,
+              malesuada ultricies.
+            </p>
+          </div>
+
+          <div class="footer__social">
+            <div class="footer__social-containers">
+              <div class="footer__icons">
+                <i class="fa-brands fa-twitter" style="color: #ece1da"></i>
+              </div>
+            </div>
+            <div class="footer__social-containers">
+              <div class="footer__icons">
+                <i class="fa-brands fa-facebook-f" style="color: #ece1da"></i>
+              </div>
+            </div>
+            <div class="footer__social-containers">
+              <div class="footer__icons">
+                <i class="fa-brands fa-skype" style="color: #ece1da"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__copyright">
+          <p>
+            © 2023 Betheme by
+            <a class="footer__links" href="https://muffingroup.com/"
+              >Muffin group</a
+            >
+            | All Rights Reserved | Powered by
+            <a class="footer__links" href="https://wordpress.org/">WordPress</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
 </html>
