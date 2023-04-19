@@ -471,6 +471,10 @@ textarea:focus {
   background: #fff;
 }
 @media (min-width: 480px) {
+    .contact__section1{
+        display: inline-block;
+        padding: 220px 0 200px 50x;
+    }
   .middle__internal-head {
     font-size: var(--font-h2-lg);
   }
@@ -561,6 +565,7 @@ textarea:focus {
   }
   .contact__section1 {
     display: inline-block;
+    padding: 220px 0 200px 80px;
   }
   .section1__head {
     display: inline-block;
@@ -613,7 +618,7 @@ textarea:focus {
 }
 @media (min-width: 960px) {
   .contact__section1 {
-    padding: 220px 0 120px 0;
+    padding: 220px 0 120px 100px;
   }
 }
 /* lg */
