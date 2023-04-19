@@ -737,7 +737,6 @@
         padding: 40px;
         width: 50%;
     }
-
     .blue-card__title {
         font-size: var(--font-h1-md);
     }
@@ -789,10 +788,11 @@
     }
 
     .nav-link {
-        font-weight: var(--font-weight-bold);
-        font-size: 0.87rem;
-        letter-spacing: 1px;
-    }
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    font-family: "Poppins";
+    font-weight: 900 !important;
+  }
 
     .nav-link.activ {
         color: var(--color-text-dark);

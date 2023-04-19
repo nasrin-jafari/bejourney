@@ -246,7 +246,7 @@ body {
 }
 @keyframes animationBannner {
   0% {
-    left: 50px;
+    left: 80px;
   }
   50% {
     left: 0;
@@ -372,13 +372,20 @@ body {
   width: 180px;
   height: 180px;
   cursor: pointer;
+    transition: all .4s ease-in-out;
+
 }
 .Tours-destinations__btn-play--hover-mode {
   display: none;
+  transition: all .4s ease-in-out;
+
 }
 .Tours-destinations__btn-play:hover
   + .Tours-destinations__btn-play--hover-mode {
   display: flex;
+    transition: all .4s ease-in-out;
+
+
 }
 .Tours-destinations__btn-play:hover {
   display: none;
@@ -772,7 +779,7 @@ body {
     font-size: 0.75rem;
     letter-spacing: 1px;
     font-family: "Poppins";
-    font-weight: 800 !important;
+    font-weight: 900 !important;
   }
   .nav-link.activ {
     color: var(--color-text-dark);
@@ -801,5 +808,8 @@ body {
     display: flex; 
     gap: 40px; 
     width: 100%; 
+  }
+    .video {
+    height: 490px;
   }
 }
