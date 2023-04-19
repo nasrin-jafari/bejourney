@@ -150,28 +150,6 @@ document
       nameErrorMessage.style.display = "none";
     }
   });
-
-// var emailInput = document.getElementById("name_input");
-//       emailInput.addEventListener("input", function (event) {
-//         var errorIcon = document.getElementById("error-icon__container");
-//         if (emailInput.checkValidity()) {
-//           // مخفی کردن آیکون خطا در صورت اصلاح ایمیل
-//           errorIcon.style.display = "none";
-//         }
-//       });
-//       document
-//         .getElementById("submit-btn")
-//         .addEventListener("click", function (event) {
-//           if (!emailInput.checkValidity()) {
-//             // نمایش خطا یا آیکون خطا
-//             var errorIcon = document.getElementById("error-icon__container");
-//             errorIcon.style.display = "block";
-//           } else {
-//             // ارسال فرم
-//             document.getElementById("form__email").submit();
-//           }
-//         });
-// onclick="var d=document.documentElement;p='className';c='cssanimations';n='no-'+c;d[p]=(d[p].replace(' ','')===n)?c:n;console.log(d[p],n,c)"
 (function (document) {
   var animation = false,
     animationstring = "animation",
