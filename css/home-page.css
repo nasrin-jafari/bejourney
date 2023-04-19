@@ -797,4 +797,9 @@ body {
   .Tours-destinations__country-image-container {
     height: 220px;
   }
+  .desktop__links.sticky { 
+    display: flex; 
+    gap: 40px; 
+    width: 100%; 
+  }
 }

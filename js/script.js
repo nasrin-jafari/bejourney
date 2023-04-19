@@ -1,3 +1,4 @@
+const desktopLinks = document.querySelector(".desktop__links");
 const header = document.querySelector(".header");
 const headerLogo = document.querySelector(".header__logo__img");
 const headerPlaceholder = document.querySelector(".header-placeholder");
@@ -31,11 +32,13 @@ window.addEventListener("scroll", function () {
       headerLogo.classList.add("sticky");
       headerPlaceholder.style.display = "block";
       headerPlaceholder.style.height = `${headerHeight}px`;
+      desktopLinks.classList.add("sticky"); 
     } else {
       header.classList.remove("sticky");
       headerLogo.classList.remove("sticky");
       headerPlaceholder.style.display = "none";
       headerPlaceholder.style.height = "0";
+      desktopLinks.classList.remove("sticky");
     }
   }
 });
