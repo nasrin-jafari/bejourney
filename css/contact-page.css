@@ -612,7 +612,7 @@ textarea:focus {
 /* lg */
 @media (min-width: 1240px) {
   .contact__section1 {
-    padding: 220px 0 120px 400px;
+    padding: 220px 0 80px 350px;
   }
   .middle__internal {
     width: 100%;
