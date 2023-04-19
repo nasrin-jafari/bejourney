@@ -258,6 +258,8 @@ body {
   position: relative;
   animation-name: animationBannner;
   animation-duration: 2s;
+  user-select: none
+
 }
 .banner__buttons {
   display: flex;
@@ -687,6 +689,8 @@ body {
     position: relative;
     animation-name: animationBannner;
     animation-duration: 3s;
+    user-select: none
+
   }
   .banner__buttons {
     max-width: 290px;
