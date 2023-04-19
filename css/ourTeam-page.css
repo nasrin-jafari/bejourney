@@ -638,6 +638,8 @@
     }
 
     .card__caption-first-space {
+        font-family: var(--font-popins);
+        font-size: var(--font-body-defult);
         line-height: 23px;
     }
 
@@ -820,6 +822,8 @@
     }
 
     .card__caption-first-space {
+        font-family: var(--font-popins);
+        font-size: var(--font-body-defult);
         line-height: 26px;
     }
 
@@ -956,7 +960,8 @@
     }
 
     .card__caption-first-space {
-        font-size: var(--font-h3-xs);
+        font-family: var(--font-popins);
+        font-size: var(--font-body-defult);
         line-height: 30px;
     }
 
