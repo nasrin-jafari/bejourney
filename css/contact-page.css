@@ -219,7 +219,7 @@
   background-color: var(--color-btn);
   border-radius: 15px;
   font-family: var(--font-YesevaOne);
-  font-weight: 600;
+  font-weight: var(--font-weight-bold);
   font-size: var(--font-btn-defult);
   color: var(--color-badge);
   padding: 8px 15px;
