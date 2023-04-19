@@ -501,6 +501,10 @@
   .top-section__description__paragraph {
     width: 344px;
     height: 69px;
+        color: var(--color-text-dark);
+    font-family: var(--font-popins);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-body-defult);
   }
   .top-section__title {
     font-size: var(--font-h1-sm) ;
