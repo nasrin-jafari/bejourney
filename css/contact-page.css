@@ -653,7 +653,7 @@ textarea:focus {
   .block__description {
     max-width: 280px;
     padding: 0 20px 0 20px;
-    font-size: var(--font-h3-xs);
+    font-size: var(--font-h3-sm);
   }
   .form__dual {
     width: 100%;
