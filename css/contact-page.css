@@ -253,7 +253,7 @@
   font-weight: var(--font-weight-normal);
   color: var(--color-text-white);
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 .section3_internal-form {
   width: 100%;
@@ -644,6 +644,7 @@ textarea:focus {
   }
   .section3__internal-title {
     font-size: var(--font-h1-lg);
+    margin-bottom: 48px;
   }
   .section2__container {
     display: flex;
