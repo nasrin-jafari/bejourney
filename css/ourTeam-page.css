@@ -233,7 +233,138 @@
     font-family: Poppins, sans-serif;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0 60px;
+}
 
+.card_second {
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+.card_third {
+    padding-top: 0;
+    padding-bottom: 80px;
+}
+
+.card-orbit {
+    height: 100%;
+    width: 80%;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-orbit_second {
+    width: 80%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.avatar {
+    /*border: 1px solid blue;*/
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.card__avatar-information {
+    width: 100%;
+    padding-left: 18px;
+}
+
+.card__avatar-information-second {
+    padding-right: 18px;
+    padding-left: 0;
+}
+
+.card__tour-leaders {
+    font-size: 1.7rem;
+    line-height: 33px;
+    font-style: normal;
+    font-weight: 900;
+    color: #1a404a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 15px;
+}
+
+.card__caption-first {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__caption-first-space {
+    margin: 15px 0 0;
+    font-family: Poppins, sans-serif;
+    font-size: 0.8rem;
+    line-height: 19px;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.card__icon {
+    padding-top: 30px;
+}
+
+.card__icon-second {
+    padding: 30px 0;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-border {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #00a2a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-border:hover {
+    background-color: #007A78;
+}
+
+.card__icon-style {
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon-box:hover {
+    opacity: 0.8;
+}
+
+.card__title-second {
+    padding-right: 18px;
+    font-size: 1.7rem;
+    line-height: 33px;
+    font-style: normal;
+    font-weight: 900;
+    color: #1a404a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 15px;
+}
+
+.card__caption-second {
+    display: flex;
+    flex-direction: column;
+    padding-right: 18px;
+}
 /* sm */
 @media (min-width: 576px) {
     .header__desktop {
